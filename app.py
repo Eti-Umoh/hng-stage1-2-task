@@ -39,15 +39,15 @@ def return_response():
 
     if operation_type == Operators.addition.name:
         result = x+y
-        operation_type_value =  Operators.addition.value
+        operation_type_value =  Operators.addition.name
 
     elif operation_type == Operators.subtraction.name:
         result = x-y
-        operation_type_value =  Operators.subtraction.value
+        operation_type_value =  Operators.subtraction.name
 
     elif operation_type == Operators.multiplication.name:
         result = x*y
-        operation_type_value =  Operators.multiplication.value
+        operation_type_value =  Operators.multiplication.name
 
     else:
         openai.api_key = ("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")
